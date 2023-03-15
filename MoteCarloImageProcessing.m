@@ -45,11 +45,11 @@ classdef MoteCarloImageProcessing < handle
                 end
                 [xMaxValue, xMinValue] = Utility.maxMin(x_tepi);
                 [yMaxValue, yMinValue] = Utility.maxMin(y_tepi);
-                if (x_acak > xMinValue && x_acak < xMaxValue)
-                    if (y_acak > yMinValue && y_acak < yMaxValue)
+                if (x_acak > xMinValue & x_acak < xMaxValue)
+                    if (y_acak > yMinValue & y_acak < yMaxValue)
                         x_target = find(x_tepi == y_acak);
                         [xTargetMaxValue, xTargetMinValue] = Utility.maxMin(x_target);
-                        if (x_acak > xTargetMinValue && x_acak < xTargetMaxValue)
+                        if (x_acak > xTargetMinValue & x_acak < xTargetMaxValue)
                             titik = titik + 1;
                         end
                     end
