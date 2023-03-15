@@ -5,7 +5,7 @@
 
 Flowchart
 ---------
-![alt text](https://github.com/NormalPeeple/matlab-gui-monte-carlo-area-calc/blob/master/prop/flowchart%20program%20gui%20monte%20carlo.png)
+![alt text](https://github.com/NormalPeeple/matlab-gui-monte-carlo-area-calc/blob/master/prop/flowchart%20program%20gui%20monte%20carlo%20svg.svg)
 <hr>
 
 File Info
